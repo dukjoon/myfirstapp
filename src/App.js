@@ -12,7 +12,7 @@ export default class App extends React.Component {
       },
       {
         title: '운동하기',
-        done: false,
+        done: false
       },
     ],
     showModal: false,
