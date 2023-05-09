@@ -28,6 +28,7 @@ const styles = StyleSheet.create({
     fontSize: 32,
     fontWeight: '600',
   },
+  paddingTop: Platform.select({
   button: {
     width: 28,
     height: 28,
@@ -35,7 +36,6 @@ const styles = StyleSheet.create({
     backgroundColor: '#212121',
     justifyContent: 'center',
     alignItems: 'center',
-    paddingTop: Platform.select({
       ios: 2,
       android: 0,
     }),
